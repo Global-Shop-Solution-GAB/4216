@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>554</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>3</Height>
+      </Size>
+      <X>0</X>
+      <Y>554</Y>
+      <Width>24</Width>
+      <Height>3</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>554</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.F_UDI_Label..Create</string>
+        <string>Gui.F_UDI_Label..Caption("UDI Label")</string>
+        <string>Gui.F_UDI_Label..Size(4575,3480)</string>
+        <string>Gui.F_UDI_Label..MinX(0)</string>
+        <string>Gui.F_UDI_Label..MinY(0)</string>
+        <string>Gui.F_UDI_Label..Position(0,0)</string>
+        <string>Gui.F_UDI_Label..BackColor(-2147483633)</string>
+        <string>Gui.F_UDI_Label..MousePointer(0)</string>
+        <string>Gui.F_UDI_Label..Event(UnLoad,F_UDI_Label_UnLoad)</string>
+        <string>Gui.F_UDI_Label.txtPart.Create(TextBox,"",True,2055,300,0,315,525,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_UDI_Label.txtRev.Create(TextBox,"",True,465,300,0,2580,525,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_UDI_Label.txtLoc.Create(TextBox,"",True,450,300,0,3735,525,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_UDI_Label.lbl1.Create(Label,"Part",True,540,255,0,285,315,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.lbl2.Create(Label,"Rev",True,510,255,0,2565,330,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.lbl3.Create(Label,"Loc",True,465,255,0,3705,315,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.dtpManuDate.Create(DatePicker)</string>
+        <string>Gui.F_UDI_Label.dtpManuDate.Size(1935,285)</string>
+        <string>Gui.F_UDI_Label.dtpManuDate.Position(315,1950)</string>
+        <string>Gui.F_UDI_Label.lbl4.Create(Label,"Manufacturing Date",True,1935,255,0,300,1740,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.txtLotBin.Create(TextBox,"",True,1965,300,0,315,1260,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_UDI_Label.lbl5.Create(Label,"Lot",True,750,255,0,285,1050,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.txtQtyToPrint.Create(TextBox,"",True,1215,300,0,2580,1260,True,1,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_UDI_Label.txtQtyToPrint.NumericOnly(True)</string>
+        <string>Gui.F_UDI_Label.lbl6.Create(Label,"Qty to Print",True,975,255,0,2550,1065,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_UDI_Label.cmdPartBrowser.Create(Button)</string>
+        <string>Gui.F_UDI_Label.cmdPartBrowser.Size(405,375)</string>
+        <string>Gui.F_UDI_Label.cmdPartBrowser.Position(3195,480)</string>
+        <string>Gui.F_UDI_Label.cmdPartBrowser.Caption("^")</string>
+        <string>Gui.F_UDI_Label.cmdPartBrowser.Event(Click,cmdPartBrowser_Click)</string>
+        <string>Gui.F_UDI_Label.cmdPrint.Create(Button)</string>
+        <string>Gui.F_UDI_Label.cmdPrint.Size(855,375)</string>
+        <string>Gui.F_UDI_Label.cmdPrint.Position(315,2385)</string>
+        <string>Gui.F_UDI_Label.cmdPrint.Caption("Print")</string>
+        <string>Gui.F_UDI_Label.cmdPrint.Event(Click,cmdPrint_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.UDT.uLabel.Define("GMDN_DESC",String,GMDN)</string>
+        <string>Variable.UDT.uLabel.Define("ALT_DESC_1",String,ALT_DESC_1)</string>
+        <string>Variable.UDT.uLabel.Define("ALT_DESC_2",String,ALT_DESC_2)</string>
+        <string>Variable.UDT.uLabel.Define("EXTRA_DESC",String,EXTRA_DESC)</string>
+        <string>Variable.UDT.uLabel.Define("CATALOG_NUM",String,CATALOG_NUM)</string>
+        <string>Variable.UDT.uLabel.Define("PROD_IDENT_LOT",String,PROD_IDENT_LOT)</string>
+        <string>Variable.UDT.uLabel.Define("COMPANY",String,COMPANY)</string>
+        <string>Variable.UDT.uLabel.Define("ADDR1",String,ADDR1)</string>
+        <string>Variable.UDT.uLabel.Define("CITY",String,CITY)</string>
+        <string>Variable.UDT.uLabel.Define("STATE",String,STATE)</string>
+        <string>Variable.UDT.uLabel.Define("ZIP",String,ZIP)</string>
+        <string>Variable.UDT.uLabel.Define("UDI",String,UDI)</string>
+        <string>Variable.UDT.uLabel.Define("DEVICE_COUNT",Float,DEVICE_COUNT)</string>
+        <string>Variable.UDT.uLabel.Define("PROD_IDENT",Date,PROD_IDENT)</string>
+        <string>Variable.UDT.uLabel.Define("LABEL_COPY",Long,LABEL_COPY)</string>
+        <string>Variable.UDT.uLabel.Define("SING_USE",String,SING_USE)</string>
+        <string>Variable.uGlobal.uLabel.Declare("uLabel")</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string>Gui.F_UDI_Label..Show</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.cmdPartBrowser_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdPartBrowser_Click")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>'Open Part Browser</string>
+        <string>F.Intrinsic.UI.Browser(100,"",V.Local.sRet)</string>
+        <string />
+        <string>'Check the return</string>
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.F_UDI_Label.txtPart.Text(V.Local.sRet(0))</string>
+        <string>	Gui.F_UDI_Label.txtRev.Text(V.Local.sRet(1))</string>
+        <string>	Gui.F_UDI_Label.txtLoc.Text(V.Local.sRet(2))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdPartBrowser_Click")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdPartBrowser_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdPrint_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdPrint_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sPart.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>V.Local.sExtraDesc.Declare(String)</string>
+        <string>V.Local.sManuDate.Declare(String)</string>
+        <string>V.Local.sUDI.Declare(String)</string>
+        <string>V.Local.sExpirDate.Declare(String)</string>
+        <string>V.Local.iBIRunID.Declare(Long)</string>
+        <string>V.Local.iBILogID.Declare(Long)</string>
+        <string />
+        <string>'Verify that a part has been selected</string>
+        <string>F.Intrinsic.Control.If(V.Screen.F_UDI_Label!txtPart.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("You must select a Part.")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Verify that a quantity to be printed has been entered</string>
+        <string>F.Intrinsic.Control.If(V.Screen.F_UDI_Label!txtQtyToPrint.Text,=,"","OR",V.Screen.F_UDI_Label!txtQtyToPrint.Text,&lt;=,0)</string>
+        <string>	F.Intrinsic.UI.Msgbox("You must enter a valid quantity to print.")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Global.BI.GetRunID(V.Local.iBIRunID)</string>
+        <string>F.Global.BI.StartLogging(V.Local.iBIRunID,100056,"",V.Local.iBILogID)</string>
+        <string />
+        <string>'Initialize UDT</string>
+        <string>V.uGlobal.uLabel.Redim(-1,-1)</string>
+        <string>V.uGlobal.uLabel.Redim(0,0)</string>
+        <string />
+        <string>'Set the part information</string>
+        <string>F.Intrinsic.String.GSSPartString(V.Screen.F_UDI_Label!txtPart.Text,V.Screen.F_UDI_Label!txtRev.Text,V.Local.sPart)</string>
+        <string>V.uGlobal.uLabel(0)!CATALOG_NUM.Set(V.Local.sPart)</string>
+        <string>V.uGlobal.uLabel(0)!PROD_IDENT_LOT.Set(V.Screen.F_UDI_Label!txtLotBin.Text)</string>
+        <string />
+        <string>'Get the Description information for the label</string>
+        <string>F.Intrinsic.String.Build("SELECT PRODUCT_LINE,DESCRIPTION FROM V_INVENTORY_MSTR WHERE PART = '{0}' AND LOCATION = '{1}'",V.Local.sPart,V.Screen.F_UDI_Label!txtLoc.Text,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstDesc",V.Local.sSQL)</string>
+        <string />
+        <string>'Make sure we have a record</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstDesc.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!SING_USE.Set(V.ODBC.con!rstDesc.FieldValTrim!PRODUCT_LINE)</string>
+        <string>	V.uGlobal.uLabel(0)!GMDN_DESC.Set(V.ODBC.con!rstDesc.FieldValTrim!DESCRIPTION)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstDesc.Close</string>
+        <string />
+        <string>'Get extra description 1 and 2</string>
+        <string>F.Intrinsic.String.Build("Select TEXT_INFO1,TEXT_INFO2 FROM V_INVENTORY_MST2 WHERE PART = '{0}' AND LOCATION = '{1}'",V.Local.sPart,V.Screen.F_UDI_Label!txtLoc.Text,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstDesc2",V.Local.sSQL)</string>
+        <string />
+        <string>'Check for records</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstDesc2.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!ALT_DESC_1.Set(V.ODBC.con!rstDesc2.FieldValTrim!TEXT_INFO1)</string>
+        <string>	V.uGlobal.uLabel(0)!ALT_DESC_2.Set(V.ODBC.con!rstDesc2.FieldValTrim!TEXT_INFO2)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstDesc2.Close</string>
+        <string />
+        <string>'Get Extra Description</string>
+        <string>F.Intrinsic.String.Build("SELECT (TEXT_LINE1 + TEXT_LINE2 + TEXT_LINE3 + TEXT_LINE4 + TEXT_LINE5) AS EXTRA FROM V_EXTRA_TEXT WHERE PART = '{0}'",V.Local.sPart,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstExtra",V.Local.sSQL)</string>
+        <string />
+        <string>'Loop through each found record and add to the extra description</string>
+        <string>F.Intrinsic.Control.DoUntil(V.ODBC.con!rstExtra.EOF,=,True)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}",V.Local.sExtraDesc,V.ODBC.con!rstExtra.FieldValTrim!EXTRA,V.Local.sExtraDesc)</string>
+        <string>	F.ODBC.con!rstExtra.MoveNext</string>
+        <string>F.Intrinsic.Control.Loop</string>
+        <string />
+        <string>F.ODBC.con!rstExtra.Close</string>
+        <string />
+        <string>'Get Company Name</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstLabeler","SELECT TEXT1 FROM V_OP_HEADER WHERE ID = '401938' AND SEQUENCE = '0000'")</string>
+        <string />
+        <string>'Make sure we have a record, but honestly we really should since it's a standard option</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstLabeler.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!COMPANY.Set(V.ODBC.con!rstLabeler.FieldValTrim!TEXT1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstLabeler.Close</string>
+        <string />
+        <string>'Get Company Address</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstAddr","SELECT TEXT1 FROM V_OP_HEADER WHERE ID = '401939' AND SEQUENCE = '0000'")</string>
+        <string />
+        <string>'Make sure we have a record, but honestly we really should since it's a standard option</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstAddr.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!ADDR1.Set(V.ODBC.con!rstAddr.FieldValTrim!TEXT1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstAddr.Close</string>
+        <string>'City</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstAddr","SELECT TEXT1 FROM V_OP_HEADER WHERE ID = '401941' AND SEQUENCE = '0003'")</string>
+        <string />
+        <string>'Make sure we have a record, but honestly we really should since it's a standard option</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstAddr.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!CITY.Set(V.ODBC.con!rstAddr.FieldValTrim!TEXT1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstAddr.Close</string>
+        <string>'State</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstAddr","SELECT TEXT1 FROM V_OP_HEADER WHERE ID = '401941' AND SEQUENCE = '0004'")</string>
+        <string />
+        <string>'Make sure we have a record, but honestly we really should since it's a standard option</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstAddr.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!STATE.Set(V.ODBC.con!rstAddr.FieldValTrim!TEXT1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstAddr.Close</string>
+        <string>'Zip</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstAddr","SELECT TEXT1 FROM V_OP_HEADER WHERE ID = '401941' AND SEQUENCE = '0005'")</string>
+        <string />
+        <string>'Make sure we have a record, but honestly we really should since it's a standard option</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstAddr.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!ZIP.Set(V.ODBC.con!rstAddr.FieldValTrim!TEXT1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstAddr.Close</string>
+        <string />
+        <string>'Get Device Count</string>
+        <string>F.Intrinsic.String.Build("SELECT PCS_PER_CNTNR FROM V_INVENTORY_MST3 WHERE PART = '{0}' AND LOCATION = '{1}'",V.Local.sPart,V.Screen.F_UDI_Label!txtLoc.Text,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstCount",V.Local.sSQL)</string>
+        <string />
+        <string>'Make sure we have a value, if no value is found or it is null, simply set the Device Count to 1</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstCount.EOF,&lt;&gt;,True)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.con!rstCount.FieldValLong!PCS_PER_CNTNR,&lt;&gt;,V.Ambient.Null,"AND",V.ODBC.con!rstCount.FieldValLong!PCS_PER_CNTNR,&gt;,0)		</string>
+        <string>		V.uGlobal.uLabel(0)!DEVICE_COUNT.Set(V.ODBC.con!rstCount.FieldValLong!PCS_PER_CNTNR)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		V.uGlobal.uLabel(0)!DEVICE_COUNT.Set(1)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	V.uGlobal.uLabel(0)!DEVICE_COUNT.Set(1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstCount.Close</string>
+        <string />
+        <string>'Check for expiration date</string>
+        <string>F.Intrinsic.String.Build("SELECT I.DATE_EXPIRATION FROM V_ITEM_MASTER I LEFT JOIN V_INVENTORY_MST3 M ON I.PART = M.PART AND I.LOCATION = M.LOCATION WHERE M.SHELF_LIFE = 'Y' AND I.PART = '{0}' AND I.LOCATION = '{1}' AND I.LOT = '{2}'",V.Local.sPart,V.Screen.F_UDI_Label!txtLoc.Text,V.Screen.F_UDI_Label!txtLotBin.Text,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRO("rstExpir",V.Local.sSQL)</string>
+        <string />
+        <string>'Check for record</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstExpir.EOF,&lt;&gt;,True)</string>
+        <string>	V.uGlobal.uLabel(0)!PROD_IDENT.Set(V.ODBC.con!rstExpir.FieldVal!DATE_EXPIRATION)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.ODBC.con!rstExpir.Close</string>
+        <string />
+        <string>'Set the Quantity to be printed</string>
+        <string>V.uGlobal.uLabel(0)!LABEL_COPY.Set(V.Screen.F_UDI_Label!txtQtyToPrint.Text)</string>
+        <string />
+        <string>'Build UDI value for barcode</string>
+        <string>'Manufacturing date portion</string>
+        <string>F.Intrinsic.String.Format(V.Screen.F_UDI_Label!dtpManuDate.Value,"YYYYMMDD",V.Local.sManuDate)</string>
+        <string>'Strip special characters from Part</string>
+        <string>F.Intrinsic.String.StripCharacters(V.Local.sPart,V.Local.sPart)</string>
+        <string />
+        <string>F.Intrinsic.String.Build("+B417{0}0/",V.Local.sPart,V.Local.sUDI)</string>
+        <string />
+        <string>'Check to see if there is a lot number</string>
+        <string>F.Intrinsic.Control.If(V.uGlobal.uLabel(0)!PROD_IDENT_LOT,&lt;&gt;,"")</string>
+        <string>	F.Intrinsic.String.Build("{0}/${1}",V.Local.sUDI,,V.uGlobal.uLabel(0)!PROD_IDENT_LOT,V.Local.sUDI)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Add Manufacturers date</string>
+        <string>F.Intrinsic.String.Build("{0}/16D{1}",V.Local.sUDI,V.Local.sManuDate,V.Local.sUDI)</string>
+        <string />
+        <string>'If there is an expiration date add it to the UDI barcode</string>
+        <string>F.Intrinsic.Control.If(V.uGlobal.uLabel(0)!PROD_IDENT,&lt;&gt;,"1/1/0001")</string>
+        <string>	F.Intrinsic.String.Format(V.uGlobal.uLabel(0)!PROD_IDENT,"YYYYMMDD",V.Local.sExpirDate)</string>
+        <string>	F.Intrinsic.String.Build("{0}/14D{1}",V.Local.sUDI,V.Local.sExpirDate,V.Local.sUDI)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Calculate the check number</string>
+        <string>F.Intrinsic.Control.CallSub(calculate_check_no,"UDI",V.Local.sUDI)</string>
+        <string>'Get the correct symbol based on the mod value we got</string>
+        <string>F.Intrinsic.Control.CallSub(get_check_no,"mod",V.Args.Mod)</string>
+        <string>'Add the check number to the end of the UDI value</string>
+        <string>F.Intrinsic.String.Build("{0}{1}",V.Local.sUDI,V.Args.CheckNo,V.Local.sUDI)</string>
+        <string>'Save to UDT</string>
+        <string>V.uGlobal.uLabel(0)!UDI.Set(V.Local.sUDI)</string>
+        <string />
+        <string>'Stop Logging</string>
+        <string>F.Global.BI.StopLogging(V.Local.iBILogID)</string>
+        <string />
+        <string>F.Intrinsic.Debug.InvokeDebugger</string>
+        <string />
+        <string>F.Intrinsic.Debug.Stop</string>
+        <string />
+        <string>F.Global.BI.PrintCodeSoftLabelFromUDT(V.Local.iBIRunID,V.Local.iBILogID,"uGlobal.uLabel","","",True)</string>
+        <string />
+        <string>'Exit program</string>
+        <string>F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdPrint_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdPrint_Click.End</string>
+        <string />
+        <string>Program.Sub.get_check_no.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("get_check_no_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sCheckNo.Declare(String)</string>
+        <string />
+        <string>'Get the character corresponding to the value</string>
+        <string>F.Intrinsic.Control.SelectCase(V.Args.Mod)</string>
+        <string>	F.Intrinsic.Control.Case(1)</string>
+        <string>		V.Local.sCheckNo.Set("1")</string>
+        <string>	F.Intrinsic.Control.Case(2)</string>
+        <string>		V.Local.sCheckNo.Set("2")</string>
+        <string>	F.Intrinsic.Control.Case(3)</string>
+        <string>		V.Local.sCheckNo.Set("3")</string>
+        <string>	F.Intrinsic.Control.Case(4)</string>
+        <string>		V.Local.sCheckNo.Set("4")</string>
+        <string>	F.Intrinsic.Control.Case(5)</string>
+        <string>		V.Local.sCheckNo.Set("5")</string>
+        <string>	F.Intrinsic.Control.Case(6)</string>
+        <string>		V.Local.sCheckNo.Set("6")</string>
+        <string>	F.Intrinsic.Control.Case(7)</string>
+        <string>		V.Local.sCheckNo.Set("7")</string>
+        <string>	F.Intrinsic.Control.Case(8)</string>
+        <string>		V.Local.sCheckNo.Set("8")</string>
+        <string>	F.Intrinsic.Control.Case(9)</string>
+        <string>		V.Local.sCheckNo.Set("9")</string>
+        <string>	F.Intrinsic.Control.Case(10)</string>
+        <string>		V.Local.sCheckNo.Set("A")</string>
+        <string>	F.Intrinsic.Control.Case(11)</string>
+        <string>		V.Local.sCheckNo.Set("B")</string>
+        <string>	F.Intrinsic.Control.Case(12)</string>
+        <string>		V.Local.sCheckNo.Set("C")</string>
+        <string>	F.Intrinsic.Control.Case(13)</string>
+        <string>		V.Local.sCheckNo.Set("D")</string>
+        <string>	F.Intrinsic.Control.Case(14)</string>
+        <string>		V.Local.sCheckNo.Set("E")</string>
+        <string>	F.Intrinsic.Control.Case(15)</string>
+        <string>		V.Local.sCheckNo.Set("F")</string>
+        <string>	F.Intrinsic.Control.Case(16)</string>
+        <string>		V.Local.sCheckNo.Set("G")</string>
+        <string>	F.Intrinsic.Control.Case(17)</string>
+        <string>		V.Local.sCheckNo.Set("H")</string>
+        <string>	F.Intrinsic.Control.Case(18)</string>
+        <string>		V.Local.sCheckNo.Set("I")</string>
+        <string>	F.Intrinsic.Control.Case(19)</string>
+        <string>		V.Local.sCheckNo.Set("J")</string>
+        <string>	F.Intrinsic.Control.Case(20)</string>
+        <string>		V.Local.sCheckNo.Set("K")</string>
+        <string>	F.Intrinsic.Control.Case(21)</string>
+        <string>		V.Local.sCheckNo.Set("L")</string>
+        <string>	F.Intrinsic.Control.Case(22)</string>
+        <string>		V.Local.sCheckNo.Set("M")</string>
+        <string>	F.Intrinsic.Control.Case(23)</string>
+        <string>		V.Local.sCheckNo.Set("N")</string>
+        <string>	F.Intrinsic.Control.Case(24)</string>
+        <string>		V.Local.sCheckNo.Set("O")</string>
+        <string>	F.Intrinsic.Control.Case(25)</string>
+        <string>		V.Local.sCheckNo.Set("P")</string>
+        <string>	F.Intrinsic.Control.Case(26)</string>
+        <string>		V.Local.sCheckNo.Set("Q")</string>
+        <string>	F.Intrinsic.Control.Case(27)</string>
+        <string>		V.Local.sCheckNo.Set("R")</string>
+        <string>	F.Intrinsic.Control.Case(28)</string>
+        <string>		V.Local.sCheckNo.Set("S")</string>
+        <string>	F.Intrinsic.Control.Case(29)</string>
+        <string>		V.Local.sCheckNo.Set("T")</string>
+        <string>	F.Intrinsic.Control.Case(30)</string>
+        <string>		V.Local.sCheckNo.Set("U")</string>
+        <string>	F.Intrinsic.Control.Case(31)</string>
+        <string>		V.Local.sCheckNo.Set("V")</string>
+        <string>	F.Intrinsic.Control.Case(32)</string>
+        <string>		V.Local.sCheckNo.Set("W")</string>
+        <string>	F.Intrinsic.Control.Case(33)</string>
+        <string>		V.Local.sCheckNo.Set("X")</string>
+        <string>	F.Intrinsic.Control.Case(34)</string>
+        <string>		V.Local.sCheckNo.Set("Y")</string>
+        <string>	F.Intrinsic.Control.Case(35)</string>
+        <string>		V.Local.sCheckNo.Set("Z")</string>
+        <string>	F.Intrinsic.Control.Case(36)</string>
+        <string>		V.Local.sCheckNo.Set("-")</string>
+        <string>	F.Intrinsic.Control.Case(37)</string>
+        <string>		V.Local.sCheckNo.Set(".")</string>
+        <string>	F.Intrinsic.Control.Case(38)</string>
+        <string>		V.Local.sCheckNo.Set(" ")</string>
+        <string>	F.Intrinsic.Control.Case(39)</string>
+        <string>		V.Local.sCheckNo.Set("$")</string>
+        <string>	F.Intrinsic.Control.Case(40)</string>
+        <string>		V.Local.sCheckNo.Set("/")</string>
+        <string>	F.Intrinsic.Control.Case(41)</string>
+        <string>		V.Local.sCheckNo.Set("+")</string>
+        <string>	F.Intrinsic.Control.Case(42)</string>
+        <string>		V.Local.sCheckNo.Set("%")</string>
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>F.Intrinsic.Variable.AddRV("CheckNo",V.Local.sCheckNo)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("get_check_no_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.get_check_no.End</string>
+        <string />
+        <string>Program.Sub.Calculate_Check_No.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Calculate_Check_No_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sCharacter.Declare(String)</string>
+        <string>V.Local.iTotal.Declare(Long)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.iMod.Declare(Long)</string>
+        <string />
+        <string>'Split at every character</string>
+        <string>F.Intrinsic.String.LimitSplit(V.Args.UDI,1,V.Local.sCharacter)</string>
+        <string />
+        <string>'Loop through each character and calculate total.</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,0,V.Local.sCharacter.UBound,1)</string>
+        <string>	F.Intrinsic.Control.SelectCase(V.Local.sCharacter(V.Local.iC))</string>
+        <string>	</string>
+        <string>		F.Intrinsic.Control.Case("1")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,1,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("2")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,2,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("3")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,3,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("4")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,4,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("5")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,5,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("6")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,6,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("7")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,7,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("8")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,8,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("9")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,9,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("A")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,10,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("B")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,11,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("C")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,12,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("D")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,13,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("E")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,14,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("F")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,15,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("G")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,16,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("H")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,17,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("I")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,18,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("J")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,19,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("K")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,20,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("L")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,21,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("M")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,22,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("N")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,23,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("O")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,24,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("P")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,25,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("Q")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,26,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("R")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,27,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("S")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,28,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("T")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,29,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("U")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,30,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("V")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,31,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("W")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,32,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("X")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,33,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("Y")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,34,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("Z")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,35,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("-")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,36,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case(".")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,37,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case(" ")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,38,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("$")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,39,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("/")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,40,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("+")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,41,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.Case("%")</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iTotal,42,V.Local.iTotal)</string>
+        <string>		F.Intrinsic.Control.EndSelect</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>'Now that we have the total, mod 43 to get a value for the check symbol</string>
+        <string>F.Intrinsic.Math.Mod(V.Local.iTotal,43,V.Local.iMod)</string>
+        <string>F.Intrinsic.Variable.AddRV("Mod",V.Local.iMod)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Calculate_Check_No_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Calculate_Check_No.End</string>
+        <string />
+        <string>Program.Sub.F_UDI_Label_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("F_UDI_Label_UnLoad")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!con.Close</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("F_UDI_Label_UnLoad")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4216_UDI_Compliant_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_udi_label_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.F_UDI_Label_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$BCC$}$9/12/2016 7:32:01 PM$}$False</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$This custom project will be just the preprocessor for the label. The label will be done in a separate VT so that the customer can watch and learn how to create a new CodeSoft Label. The label will be designed such that it is a FDA Compliant Label.</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>448</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>35</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>37</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>55</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>57</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>74</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>76</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>102</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdPartBrowser_Click</Text>
+        <DisplayText>Program.Sub.cmdPartBrowser_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>104</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>308</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdPrint_Click</Text>
+        <DisplayText>Program.Sub.cmdPrint_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>310</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>415</Y>
+        </EndPoint>
+        <Text>Program.Sub.get_check_no</Text>
+        <DisplayText>Program.Sub.get_check_no</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>417</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>533</Y>
+        </EndPoint>
+        <Text>Program.Sub.Calculate_Check_No</Text>
+        <DisplayText>Program.Sub.Calculate_Check_No</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>535</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>552</Y>
+        </EndPoint>
+        <Text>Program.Sub.F_UDI_Label_UnLoad</Text>
+        <DisplayText>Program.Sub.F_UDI_Label_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>554</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>557</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
